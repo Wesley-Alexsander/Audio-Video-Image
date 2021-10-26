@@ -1,13 +1,15 @@
 # Medias html
 
-Meus estudos sobre medias html, feito na plataforma da <a href="https://www.rocketseat.com.br/"><img src="https://rocketseat.com.br/icons/icon-48x48.png"/> RocketSeat</a>
+Meus estudos sobre medias html, feito na plataforma:
+<a href="https://www.rocketseat.com.br/"><img src="https://rocketseat.com.br/icons/icon-48x48.png" width="50px"/> RocketSeat</a>
 
-## Discover -> Preparando Astronauta
+## Discover --> Preparando Astronauta
 
 ### Modulo: Posso ver e ouvir HTML
 
-- Aulas
-  [x] videos
-  [x] Audio
-  [x] Iframes
-  [x] Imagens
+###### Aulas
+
+- [x] videos
+- [x] Audio
+- [x] Iframes
+- [x] Imagens
