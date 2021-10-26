@@ -1,0 +1,56 @@
+<!--
+
+  <video>
+
+  - Src
+  - Controls
+  - Se não funcionar?
+    * Fallback content
+  - Source
+    * Src
+    * Type
+  - Sobre serviços de terceiros
+
+  Link (https://developer.mozilla.org/pt-BR/docs/Web/Media/Formats)
+-->
+
+<!-- 
+  # Controls: 
+
+    Adiciona controles ao video, como botão pause, volume, e fullscream 
+  
+  # Width/Height:
+    
+    Seta a largura e altura do video
+
+  # Autoplay:
+
+    Da play automatico no video, disponivel apenas em alguns navegadores.
+
+  # Preload:
+
+    Auto -> baixa/carrega o video antes do play
+
+    metadata -> carrega só o que e necessario para ver o video
+    
+    none -> nao carrega nada ate que o botão seja apertado
+
+  # Loop
+
+    Faz o loop quando o video acabar, disponivel apenas em alguns navegadores
+  
+  # Muted 
+
+    Faz o video começar mutado, tem integração com o autoplay, fazendo com que se o video estiver mutado ele inicie o autoplay, se nao ele nao inicia
+  
+  # Poster 
+
+    Coloca uma imagem de fundo no video enquanto ele não é iniciado
+
+
+-->
+
+<video controls width="100%" height="400" autoplay preload="auto" loop>
+  <source src="./midia/getting-started.mp4" type="video/mp4" />
+  <p>Este browser nao suporta video, baixe-o aqui "link"</p>
+</video>

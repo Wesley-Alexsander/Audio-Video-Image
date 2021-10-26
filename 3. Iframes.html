@@ -1,0 +1,64 @@
+<!--
+
+  <iframe> = "inline frame element"
+
+  - Atributos
+
+    - src
+    - height
+    - width
+    - title (acessibilidade)
+    - allow
+    - allowfullscreen
+    - frameborder
+
+  - Link para pesquisa
+  
+    https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/iframe
+
+-->
+
+<!--
+
+  # Width/Height
+    Seta largura e altura do video/conteudo
+
+  # Frameboder
+    Diz se o video/conteudo vai ter uma borda ou não.
+  
+  # Title
+    Para melhorar a acessibilidade do elemento
+  
+  # Allow
+    Permite importar configurações e politicas do site que pegamos o iframe, como por exemplo:
+      - accelerometer (acelerometro)
+      - gyroscope (rotação de tela)
+      - picture in picture (miniatura de video)
+      - Autoplay
+
+  # Allowfullscreen
+    Permite o fullscreen (tela cheia)
+       
+-->
+
+<!-- Video -->
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/mpQP_EBBiw0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+<!-- Mapa -->
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14616.790029122736!2d-46.6801928!3d-23.668893849999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1635125860859!5m2!1spt-BR!2sbr"
+  width="600"
+  height="450"
+  style="border: 0"
+  allowfullscreen=""
+  loading="lazy"
+></iframe>
